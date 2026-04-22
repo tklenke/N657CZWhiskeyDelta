@@ -1,0 +1,1240 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "08b762ad-7425-46ec-8a78-0f840ea4bf42")
+	(paper "A4")
+	(title_block
+		(title "Cozy MKIV N657CZ Data Schematic")
+		(date "2026-04-20")
+		(rev "1")
+		(company "Tiberius Rex Aviation LLC")
+	)
+	(lib_symbols)
+	(text "GSA 28\nROLL SERVO\n"
+		(exclude_from_sim no)
+		(at 157.48 73.914 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0dc74938-2c9a-499a-ad56-0e5e0121bdfa")
+	)
+	(text "GMA 245\nAUDIO PANEL"
+		(exclude_from_sim no)
+		(at 196.088 31.496 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "15851b45-5318-438b-b78b-e639112ccc3e")
+	)
+	(text "G5 STANDBY\nFLIGHT DISPLAY\n"
+		(exclude_from_sim no)
+		(at 163.068 30.988 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "22f4a626-548b-4de2-b9b4-f928a6235bde")
+	)
+	(text "GEA 24 ENGINE\nANALYZER"
+		(exclude_from_sim no)
+		(at 193.802 115.57 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2b25503a-adea-417a-bd95-dc3600af6668")
+	)
+	(text "GAD 29\nARINC429\nDATA\nCONCENTRATOR"
+		(exclude_from_sim no)
+		(at 47.244 141.478 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "32fa4313-ac5a-4cd1-91d0-dd565c4c579a")
+	)
+	(text "GTP 59\nTEMP PROBE\n"
+		(exclude_from_sim no)
+		(at 93.98 31.75 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "3fd0155c-d159-4fe8-93a0-ed83ce60f665")
+	)
+	(text "GSU 25\nADAHRS"
+		(exclude_from_sim no)
+		(at 91.186 74.168 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "54de62fb-fa52-4b14-b3ec-fcb94be36f05")
+	)
+	(text "GSA 28\nPITCH SERVO"
+		(exclude_from_sim no)
+		(at 123.952 73.66 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5538ebbd-65e5-45b3-a996-6e4511cb720b")
+	)
+	(text "GNC 355\nGPS NAV\nCOMM 2"
+		(exclude_from_sim no)
+		(at 123.444 141.224 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6ad7d809-2ce9-46ed-a0ed-6571cda4dc24")
+	)
+	(text "GMC 507\nA/P CONTROLLER\n"
+		(exclude_from_sim no)
+		(at 192.278 73.152 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "749a5235-2f34-4075-a97a-2c8238131762")
+	)
+	(text "GTR 20\nCOMM 1"
+		(exclude_from_sim no)
+		(at 227.33 73.152 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "bc2654a9-dcf9-4cf8-a3c3-abd93d7d34de")
+	)
+	(text "GTX 45R\nXPONDER"
+		(exclude_from_sim no)
+		(at 91.44 112.522 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c3016969-8cac-4ad4-9d22-3ccfdafb2ed0")
+	)
+	(text "GMU 11\nMAGNETOMETER"
+		(exclude_from_sim no)
+		(at 129.032 31.496 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c37ff4f2-811d-4aed-a519-07a46fb36f27")
+	)
+	(text "ENGINE\nSENSORS"
+		(exclude_from_sim no)
+		(at 194.056 141.478 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e41461bc-d381-4a18-bf0d-847ef542cd49")
+	)
+	(text "GDU 460\nPFD 1"
+		(exclude_from_sim no)
+		(at 46.482 74.422 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "eb825d8d-1bec-4080-8fb4-07e6c32b9466")
+	)
+	(junction
+		(at 148.59 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cfc10a9-7581-43e0-8196-d38ff0f7d7d8")
+	)
+	(junction
+		(at 110.49 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc072b1-98c2-466e-86eb-c313bd985d22")
+	)
+	(junction
+		(at 203.2 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bab5bba-0978-4bbc-bc01-ffdea9a13ff9")
+	)
+	(junction
+		(at 160.02 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9306a602-52dc-4199-b56f-96740de05603")
+	)
+	(junction
+		(at 196.85 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97b99f4e-e7e1-4bb2-8c89-417017492629")
+	)
+	(junction
+		(at 154.94 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3b991bd-3db3-4bfb-adff-2ce6ae4c4c20")
+	)
+	(junction
+		(at 252.73 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8b7f8a1-55be-4fc8-a51a-5f113be4343f")
+	)
+	(junction
+		(at 194.31 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1c4e654-fae4-4207-836b-a608787e32ef")
+	)
+	(junction
+		(at 91.44 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0f4b470-c697-4e97-8f9c-dc4a852686d9")
+	)
+	(junction
+		(at 123.19 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1caf3f9-16e5-463f-b884-95732e1f5ac9")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 73.66 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005153c3-fa3a-492d-894b-47a6ac747c66")
+	)
+	(bus
+		(pts
+			(xy 91.44 93.98) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "013f2506-c975-487e-88ab-d1a978e3d899")
+	)
+	(wire
+		(pts
+			(xy 72.39 109.22) (xy 72.39 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05736912-09f2-4bd3-9090-010186130bd4")
+	)
+	(bus
+		(pts
+			(xy 203.2 93.98) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "1a1c3df3-20a1-45ba-bd4c-20bde5d177a1")
+	)
+	(wire
+		(pts
+			(xy 66.04 143.51) (xy 110.49 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d461576-7eaa-477f-8dc1-2b2df79c9e2a")
+	)
+	(bus
+		(pts
+			(xy 91.44 82.55) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "270cbe8a-bec6-46ae-b598-1cea52d719a5")
+	)
+	(wire
+		(pts
+			(xy 110.49 138.43) (xy 110.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3397120f-b7b3-4751-a327-bf4a6a8f6e71")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 78.74 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3940c283-d7b1-4f9a-bc52-b60d1713a49b")
+	)
+	(bus
+		(pts
+			(xy 196.85 39.37) (xy 196.85 49.53)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(uuid "4c56243a-32cb-493f-9a50-4003493165a9")
+	)
+	(bus
+		(pts
+			(xy 237.49 73.66) (xy 252.73 73.66)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "4d3112e2-b1bc-4954-a19d-6e1e2fc377e1")
+	)
+	(wire
+		(pts
+			(xy 66.04 149.86) (xy 66.04 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5540a74e-4079-43f5-85bf-9cd585bc1a3b")
+	)
+	(wire
+		(pts
+			(xy 110.49 134.62) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5719112c-005e-4de1-b048-f74ed55bc128")
+	)
+	(bus
+		(pts
+			(xy 160.02 39.37) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(uuid "5b4782e4-2873-4fb0-b196-ab7a8c333c95")
+	)
+	(bus
+		(pts
+			(xy 194.31 82.55) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "5df00737-d3d4-491f-8eae-2442932e9352")
+	)
+	(bus
+		(pts
+			(xy 252.73 49.53) (xy 252.73 73.66)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "6292ac25-ca1f-4790-8126-773af2e3797e")
+	)
+	(bus
+		(pts
+			(xy 196.85 49.53) (xy 252.73 49.53)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(uuid "62a30338-b345-479b-90c9-858e0eb0b40d")
+	)
+	(bus
+		(pts
+			(xy 125.73 49.53) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(uuid "6b19c87e-b206-4344-bbc0-6a37fc94ef22")
+	)
+	(bus
+		(pts
+			(xy 148.59 93.98) (xy 148.59 144.78)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "7007b39a-dccb-4262-a36f-d51d25088e5b")
+	)
+	(wire
+		(pts
+			(xy 41.91 120.65) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73ab464c-554c-464e-8063-18da1367f5aa")
+	)
+	(wire
+		(pts
+			(xy 60.96 73.66) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7668eeba-b5df-41e9-a288-7e84bd51948e")
+	)
+	(bus
+		(pts
+			(xy 252.73 73.66) (xy 252.73 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "785b8e54-5666-4788-b070-ae73422d1c1c")
+	)
+	(wire
+		(pts
+			(xy 110.49 140.97) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a08d70-ea3b-486c-88d5-a5db068fe35c")
+	)
+	(bus
+		(pts
+			(xy 154.94 82.55) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "839489e8-bee2-424e-8a43-70dfb8e0dc22")
+	)
+	(wire
+		(pts
+			(xy 39.37 123.19) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887809f9-3ea0-4386-a576-179e108daab4")
+	)
+	(bus
+		(pts
+			(xy 46.99 83.82) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "8e5129e9-04f1-427a-8aed-53aeabe3c17f")
+	)
+	(wire
+		(pts
+			(xy 110.49 149.86) (xy 66.04 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969d95d3-e130-461e-ab4e-54d5c8ab8f99")
+	)
+	(wire
+		(pts
+			(xy 76.2 120.65) (xy 76.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae5a055-c505-4dee-9cbd-0128305b2b6b")
+	)
+	(wire
+		(pts
+			(xy 39.37 83.82) (xy 39.37 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e206f35-9f29-4935-9683-420b51bb7e1b")
+	)
+	(bus
+		(pts
+			(xy 160.02 49.53) (xy 196.85 49.53)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(uuid "9f1b125a-e94c-4e59-8490-833162c2cc7c")
+	)
+	(wire
+		(pts
+			(xy 76.2 138.43) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b46cff39-8577-4f16-b402-8fc7bc64e77b")
+	)
+	(wire
+		(pts
+			(xy 91.44 39.37) (xy 91.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baed872c-48c5-4a5f-bbad-4cfe24a788f3")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 72.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be62105c-cdaf-487a-a7d5-2db44057f1f7")
+	)
+	(bus
+		(pts
+			(xy 154.94 93.98) (xy 148.59 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "c04bd0a3-66ac-49d1-a98e-2589d724ed2b")
+	)
+	(bus
+		(pts
+			(xy 148.59 93.98) (xy 123.19 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "c4ceb1bb-e9e3-4658-8ab4-5c516b7258c6")
+	)
+	(wire
+		(pts
+			(xy 41.91 83.82) (xy 41.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c57f2321-9058-4a04-95ac-bfd0d9536269")
+	)
+	(bus
+		(pts
+			(xy 133.35 144.78) (xy 148.59 144.78)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "c8d6c966-c6cf-415b-9e9f-5f69a639f687")
+	)
+	(bus
+		(pts
+			(xy 123.19 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "cbda8758-c523-4f23-9771-2f4111d0ccd3")
+	)
+	(wire
+		(pts
+			(xy 74.93 68.58) (xy 74.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc42e19d-bf54-4c0c-8e65-b2d8f276609f")
+	)
+	(bus
+		(pts
+			(xy 203.2 93.98) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "ccc2166c-1017-4fb4-9868-553c3f64d23b")
+	)
+	(wire
+		(pts
+			(xy 100.33 120.65) (xy 100.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceaee434-e494-4e69-afdc-31dbe64313ff")
+	)
+	(bus
+		(pts
+			(xy 194.31 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "cfdbcad7-de48-4623-a7e9-49c49a5496f9")
+	)
+	(bus
+		(pts
+			(xy 123.19 82.55) (xy 123.19 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "dcb3819f-bdfb-4254-aeb3-34a3ba5e931b")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 74.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b3457d-c030-447d-843f-5e9a57205cbc")
+	)
+	(wire
+		(pts
+			(xy 66.04 146.05) (xy 110.49 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3280dae-b8d9-4710-a2c2-bfd43a25df3d")
+	)
+	(bus
+		(pts
+			(xy 252.73 93.98) (xy 203.2 93.98)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+		)
+		(uuid "eccd5023-8440-401d-a0c7-b85022ed68b4")
+	)
+	(bus
+		(pts
+			(xy 125.73 39.37) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+		)
+		(uuid "ee090358-746a-49b7-bb87-54575b21873f")
+	)
+	(wire
+		(pts
+			(xy 74.93 49.53) (xy 91.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a2bdf1-768d-4005-b786-08749933c464")
+	)
+	(wire
+		(pts
+			(xy 73.66 140.97) (xy 110.49 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f978a7fe-ad31-42bf-85fc-a40eebbcd4f4")
+	)
+	(label "ARINC429"
+		(at 87.63 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "31db5afc-fa86-49ea-b63e-089bf0e3d07a")
+	)
+	(label "CAN BUS"
+		(at 127 92.71 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(justify left bottom)
+		)
+		(uuid "33fd781e-9a1b-45fa-84f5-3c650648b9e9")
+	)
+	(label "RS232"
+		(at 72.39 104.14 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38ee9a1d-b7eb-4d9a-99b0-3dfb559b3c4c")
+	)
+	(label "RS232"
+		(at 87.63 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "518c5acb-b70b-4cf7-be9e-c38dd47fd190")
+	)
+	(label "RS232"
+		(at 66.04 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ffda620-567c-4339-b249-62a78e1f89b1")
+	)
+	(label "ARINC429"
+		(at 87.63 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a53c9ee4-c200-43a0-8f1a-55679b9a3a4e")
+	)
+	(label "ARINC429"
+		(at 87.63 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9b59a00-730b-4734-8c03-25449903f046")
+	)
+	(label "RS232"
+		(at 100.33 132.08 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e56add32-0056-404d-9ed6-c3d491951da8")
+	)
+	(label "RS232"
+		(at 87.63 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1f5565a-8210-439e-a194-d8394e9bf219")
+	)
+	(sheet
+		(at 78.74 64.77)
+		(size 24.13 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b651da3-2206-405b-b3e6-052d748c7287")
+		(property "Sheetname" "GSU 25"
+			(at 78.74 64.0584 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GSU25.kicad_sch"
+			(at 78.74 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 22.86)
+		(size 101.6 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f6f33d5-5da4-4c86-8caa-5c99f5652740")
+		(property "Sheetname" "GTP 59 GMU 11 G 5"
+			(at 78.74 22.1484 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GTP59GMU11G5.kicad_sch"
+			(at 78.74 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 64.77)
+		(size 26.67 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71adc9f0-e578-4be6-b482-a8ef45a14a29")
+		(property "Sheetname" "GDU460"
+			(at 34.29 64.0584 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GDU460.kicad_sch"
+			(at 34.29 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 217.17 64.77)
+		(size 20.32 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ec55312-1555-48ca-8051-1d9a227b7322")
+		(property "Sheetname" "GTR 20"
+			(at 217.17 64.0584 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GTR20.kicad_sch"
+			(at 217.17 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 130.81)
+		(size 26.67 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9384e049-d0d3-480a-9d1f-16c6a29b5bc8")
+		(property "Sheetname" "GNC 355"
+			(at 110.49 130.0984 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GNC355.kicad_sch"
+			(at 110.49 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 106.68)
+		(size 36.83 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "afd3e8f5-1be5-407e-8e4f-abb478222d16")
+		(property "Sheetname" "GEA 24"
+			(at 175.26 105.9684 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GEA24.kicad_sch"
+			(at 175.26 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 104.14)
+		(size 24.13 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1040e2d-7401-4703-8bb8-a43929257b9b")
+		(property "Sheetname" "GTX 45R"
+			(at 80.01 103.4284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GTX45R.kicad_sch"
+			(at 80.01 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 129.54)
+		(size 36.83 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d03254ab-bdfa-4d2d-8ea9-1d510b641afb")
+		(property "Sheetname" "GAD 29"
+			(at 29.21 128.8284 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GAD29.kicad_sch"
+			(at 29.21 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 64.77)
+		(size 104.14 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbb50597-4522-48b4-9db9-796a207d047d")
+		(property "Sheetname" "Autopilot LRUs"
+			(at 109.22 64.0584 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GSA28.kicad_sch"
+			(at 109.22 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 22.86)
+		(size 27.94 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f06a516a-f0d6-434a-8dca-6c06684f7998")
+		(property "Sheetname" "GMA 245"
+			(at 181.61 22.1484 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GMA245.kicad_sch"
+			(at 181.61 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

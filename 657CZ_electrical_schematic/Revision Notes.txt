@@ -1,0 +1,42 @@
+==== Revision 1 ====
+   Original Schematic for One Mag (non-impulse) one Electronic Mag.  Push to start switch.  In Rev 2 will replace Push to Start with a OFF-ON-(ON) switch
+   
+A few folks PMed me to asked for updates on my schematic based on AeroElectric Connection Z13/8.  Attached are the Rev 2 files.
+Feedback welcomed.
+Change List
+==== Revision 2 ====  
+I started with AEC Z13
+- added brownout battery from Z10
+- change to Z-27 normal mag and one electronic ignition 'mag'
+- added off/on/start on impulse mag (AEC fig 11-19)
+- add Z31 ground power jacks (important for electric canopy actuator)
+- added electric fuel boost/prime switch and fuel prime valve (Z11 Note 14)
+- add OFF/STROBE/NAV switch (AEC fig 11-18)
+- add integrated landing/taxi light switch (see AEC fig 11-17)
+- developed e-Bus list
+- added pullable breaker for G3X system so in extreme endurance could go with just G5/Xponder/Comm/Intercom
+- developed Battery Bus List
+==== Rev 3 ====
+- updated to work with ea_kicad2WireBOM system
+ -- added wire labels
+ -- added LocLoad information (Location x,y,z) and terminating loads
+=== Rev 4 ===
+- Remove GNX 375
+- Remove Comm1,2 GTR 200
+- Add Comm 1, GTR 20 remote Comm 1 radio
+- Add GTX 45R remote ADS-B in/out
+- Add GNC 355 Nav/Comm 2
+
+==== Todos ====
+- add speedbrake schematic (see AEC fig 11-15 for trim switch) and indication system
+- add canopy actuator schematic and warning system
+- add domelight dimmer
+- consider to add Battery to Ground shut and remove individual alternator shunts
+- complete Ground System schematic page 
+- ensure all wire gauges correct
+- add wire labels
+
+
+
+
+

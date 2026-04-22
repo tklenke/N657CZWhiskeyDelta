@@ -1,0 +1,1168 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fcb6c4b3-abe9-4d0e-b4f3-537a6f49fed4")
+	(paper "A4")
+	(title_block
+		(title "Cozy MKIV N657CZ Data Schematic")
+		(date "2026-04-20")
+		(rev "1")
+		(company "Tiberius Rex Aviation LLC")
+	)
+	(lib_symbols
+		(symbol "Connector:DE9_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DE9_Socket"
+				(at 0 -14.605 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "9-pin D-SUB connector, socket (female)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DSUB DB9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Socket*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DE9_Socket_0_1"
+				(polyline
+					(pts
+						(xy -3.81 13.335) (xy -3.81 -13.335) (xy 3.81 -9.525) (xy 3.81 9.525) (xy -3.81 13.335)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -5.08)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -10.16)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DE9_Socket_1_1"
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "G5"
+		(exclude_from_sim no)
+		(at 142.748 22.606 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "38234c25-efbb-4f39-8b37-fe61c248ae94")
+	)
+	(text "GTP 59\n"
+		(exclude_from_sim no)
+		(at 39.624 78.994 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "93e49df4-e90a-40de-8ed8-83ec8764ef17")
+	)
+	(text "GMU 11"
+		(exclude_from_sim no)
+		(at 42.418 21.844 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "ee3e499c-cdcb-4738-b1b5-8d89990255ce")
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 40.64 45.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e1babaa-a777-46f0-a5e2-c5e91a417069")
+		(property "Reference" "J10"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Socket"
+			(at 40.64 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 40.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eacf8aa1-8319-4b92-8d67-139eba6b2ccb")
+		)
+		(pin "5"
+			(uuid "0de05796-0b66-4cf1-beaa-c4cdd03e8ab1")
+		)
+		(pin "2"
+			(uuid "8e78e606-cd8a-446a-b119-8a353e7c86c0")
+		)
+		(pin "9"
+			(uuid "6a35bd44-efa5-4626-a376-edb3776a3085")
+		)
+		(pin "4"
+			(uuid "2fa2e831-c51a-4e92-b16d-1d1908ecbde3")
+		)
+		(pin "8"
+			(uuid "1122973e-9b00-4d34-82d8-aafb311da20a")
+		)
+		(pin "7"
+			(uuid "ea7aa064-fd88-49d5-8071-0e2c72ef0307")
+		)
+		(pin "6"
+			(uuid "40b5ac98-26d1-4853-bc94-02924c6c0980")
+		)
+		(pin "3"
+			(uuid "a989e1b1-94ae-469f-aaf1-58b33f5610f4")
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42/5f6f33d5-5da4-4c86-8caa-5c99f5652740"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:DE9_Socket")
+		(at 142.24 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "966fad1d-79da-45fa-9a1e-5db0b1db1f05")
+		(property "Reference" "J13"
+			(at 142.24 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9_Socket"
+			(at 142.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "9-pin D-SUB connector, socket (female)"
+			(at 142.24 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c76ca9f5-f158-40f5-a48f-c73cd5aea3f6")
+		)
+		(pin "2"
+			(uuid "36344c21-469f-4010-88d9-b8267065dfde")
+		)
+		(pin "3"
+			(uuid "b2b3aaa9-1789-4920-81ea-76762182da04")
+		)
+		(pin "7"
+			(uuid "21d51072-07df-49c1-b491-9168df4e44f1")
+		)
+		(pin "8"
+			(uuid "9489731c-4d65-415c-817f-c253ba842b88")
+		)
+		(pin "9"
+			(uuid "ba54da54-4f4f-4955-a247-4d365b20e1ad")
+		)
+		(pin "4"
+			(uuid "30a5eb0b-020b-4a7b-aa4b-151f0184c33c")
+		)
+		(pin "5"
+			(uuid "92da6e3c-c72e-4a05-87cc-e579bd0112ec")
+		)
+		(pin "6"
+			(uuid "98782819-edf6-47d4-9017-926e0ad10826")
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42/5f6f33d5-5da4-4c86-8caa-5c99f5652740"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+
+	(wire
+		(pts
+			(xy 149.86 57.15) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f825e0c7-27cd-455e-b44e-dd7d8dcf5c13")
+	)
+	(label "D002A"
+		(at 152.40 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24cb7d2f-1d23-4e9c-b541-eab1c8a67c77")
+	)
+	(label "CAN-H"
+		(at 171.45 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c57fd380-3492-4d78-b95b-420875a31ed7")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d73aa6-3800-466f-ab78-0c7aa268f306")
+	)
+	(label "@@TOM"
+		(at 152.40 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83695951-90b7-4016-acad-505aa929a44c")
+	)
+	(label "SIGNAL GROUND"
+		(at 171.45 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1896d818-fc60-477e-954b-13f03dc7337c")
+	)
+	(wire
+		(pts
+			(xy 149.86 52.07) (xy 191.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38c4eb7-84a3-45e4-bf0b-033767dcd19a")
+	)
+	(label "D001A"
+		(at 152.40 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d48a2bb-503d-40c7-92c1-4caa37acca6b")
+	)
+	(label "CAN-L"
+		(at 171.45 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3e61c0-4701-4fff-9eae-2b1e6c507089")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 191.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85935655-7a4c-4a00-b392-33f8c8532411")
+	)
+	(label "@@TOM"
+		(at 152.40 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aaaca80-73a7-41d8-95f5-8129f42d9bc1")
+	)
+	(label "AIRCRAFT POWER 1"
+		(at 171.45 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8abb91f9-0257-404a-883e-023018005624")
+	)
+	(wire
+		(pts
+			(xy 149.86 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4957d4-ffa5-4005-8425-b88a7588f546")
+	)
+	(label "@@TOM"
+		(at 152.40 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ce3c73b-fa10-4dc0-b2ae-f4963e1652c3")
+	)
+	(label "UNIT ID"
+		(at 171.45 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d182651f-c6c5-4bb4-908c-6de49ace738f")
+	)
+	(wire
+		(pts
+			(xy 149.86 44.45) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7bbde2-296b-4ac0-9994-a2853866b992")
+	)
+	(label "@@TOM"
+		(at 152.40 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b463fa4c-949b-4181-b957-8c25039d8c23")
+	)
+	(label "AIRCRAFT POWER 2"
+		(at 171.45 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b401f8fe-107f-4633-9245-c5baeea191c5")
+	)
+	(wire
+		(pts
+			(xy 149.86 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb382ec5-9827-4f16-bb92-03ca0d5f1d82")
+	)
+	(label "@@TOM"
+		(at 152.40 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc6a0a7b-86a0-48fb-9f29-d50d19f1fda5")
+	)
+	(label "RS-232 RX 1"
+		(at 171.45 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bac1180-48d5-4858-be52-9c73d5e57967")
+	)
+	(wire
+		(pts
+			(xy 149.86 39.37) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88eef51f-170c-4606-a538-032ccc3155c9")
+	)
+	(label "@@TOM"
+		(at 152.40 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34930ff0-7839-48a5-9d76-51a08ee351b6")
+	)
+	(label "POWER GROUND"
+		(at 171.45 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f2c7710-c8aa-4746-a3a5-107a8da80f53")
+	)
+	(wire
+		(pts
+			(xy 149.86 36.83) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d5436b-a3c0-44a5-85d8-32a7e1eb055a")
+	)
+	(label "@@TOM"
+		(at 152.40 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a38cb74-8db9-4e0b-a233-ae768a3ee154")
+	)
+	(label "RS-232 TX 1"
+		(at 171.45 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d66af83-8bca-4fdc-bf46-964db0e5f5b8")
+	)
+	(wire
+		(pts
+			(xy 48.26 55.88) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a236d15-f29e-4c65-86a4-ce3f7f26a371")
+	)
+	(label "D002A"
+		(at 50.80 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b15382da-69e7-4f76-b5a7-3e6a0c86526f")
+	)
+	(label "CAN BUS HI"
+		(at 69.85 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc20970a-0d37-46f1-80f6-629c8609bf92")
+	)
+	(wire
+		(pts
+			(xy 48.26 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b672baf-0d50-42f8-98fc-199be8030421")
+	)
+	(label "@@TOM"
+		(at 50.80 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dd8e816-cba8-4152-a789-478f77466d3e")
+	)
+	(label "SIGNAL GROUND"
+		(at 69.85 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50182dea-109e-4607-b558-899079311ea2")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.80) (xy 90.17 50.80)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5311ea0d-9d65-4870-b989-ef40ffc03f74")
+	)
+	(label "D001A"
+		(at 50.80 50.80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "402c1a3d-3f35-4eff-916d-4d15172c7e46")
+	)
+	(label "CAN BUS LO"
+		(at 69.85 50.80 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f956c89a-74c2-4db9-9336-2292e5200169")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf188a91-51ee-4d10-acad-add3b27d0f0a")
+	)
+	(label "@@TOM"
+		(at 50.80 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0087d049-317b-4921-a570-0b7a07698e88")
+	)
+	(label "AIRCRAFT POWER 1"
+		(at 69.85 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad933768-c67e-448e-89fb-536a99e6a1d8")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a24e047-601c-40db-ba62-dd041fe43546")
+	)
+	(label "@@TOM"
+		(at 50.80 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "364a4645-18af-4747-88cd-af53bcc5915c")
+	)
+	(label "UNIT ID"
+		(at 69.85 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb46070f-dc27-47b8-848e-5b77e0bd72ae")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfd4cd9-7543-455c-aa35-002c39b72590")
+	)
+	(label "@@TOM"
+		(at 50.80 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a5f5c8a-23a6-4427-8437-b059a1c10302")
+	)
+	(label "AIRCRAFT POWER 2"
+		(at 69.85 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "525654aa-439d-4006-ab37-f49b48a98d09")
+	)
+	(no_connect
+		(at 48.26 40.64)
+		(uuid "08d385c7-0524-42aa-9cbc-40e2c21c9e0e")
+	)
+	(wire
+		(pts
+			(xy 48.26 38.10) (xy 90.17 38.10)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4adcd9-75ef-49cf-9940-7b1caaa2d004")
+	)
+	(label "@@TOM"
+		(at 50.80 38.10 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac0c467f-4496-4844-b4ce-4428fcbaa796")
+	)
+	(label "POWER GROUND"
+		(at 69.85 38.10 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fefb452-f711-4cb0-b7a9-d1ad00a52b73")
+	)
+	(no_connect
+		(at 48.26 35.56)
+		(uuid "fb30d0e6-20df-404a-b6e7-6ef0574d0df1")
+	)
+)

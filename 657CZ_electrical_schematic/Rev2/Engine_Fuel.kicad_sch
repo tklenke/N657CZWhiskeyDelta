@@ -1,0 +1,5244 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5b82817a-84cb-4505-a9f1-96df8bb55cda")
+	(paper "A")
+	(title_block
+		(title "Cozy MKIV N657CZ Electrical Schematic")
+		(date "1/7/14")
+		(rev "3")
+		(company "Tiberius Rex Aviation LLC")
+	)
+	(lib_symbols
+		(symbol "AeroElectricConnectionSymbols:Breaker-Pullable"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 5.08 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at 0 2.794 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Breaker"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Desc"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(symbol "Breaker-Pullable_0_1"
+				(polyline
+					(pts
+						(xy -0.6495 1.902) (xy 0.6205 1.902)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.533 1.1611)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 1.533 1.1611)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Breaker-Pullable_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "Conn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AeroElectricConnectionSymbols:Breaker-Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at 0 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Switch Breaker"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Desc"
+				(at 0 4.826 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(symbol "Breaker-Switch_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -1.533 1.1611)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 1.533 1.1611)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Breaker-Switch_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 0)
+					(name "Conn"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AeroElectricConnectionSymbols:LRU_2x"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LRU"
+				(at -1.524 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at -1.524 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TBD"
+				(at 0 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Description" "Generic LRU, 2 Connections"
+				(at 1.778 -6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LRU_2x_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LRU_2x_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "Ylw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Blk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AeroElectricConnectionSymbols:LRU_4x"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LRU"
+				(at -1.27 7.366 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at -1.524 -7.366 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TBD"
+				(at 0 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Description" "Generic LRU, 4 Connections"
+				(at 1.778 -6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LRU_4x_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LRU_4x_1_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "Blu"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "Ylw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "Blk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Red"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AeroElectricConnectionSymbols:S700-1-2"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Desc"
+				(at 0 4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "S700-1-2"
+				(at -0.254 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "OFF-none-ON"
+				(at -0.254 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(symbol "S700-1-2_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 2.54 -2.54) (xy 1.7627 -1.6939)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "S700-1-2_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AeroElectricConnectionSymbols:S700-1-7"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Desc"
+				(at 0 4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "S700-1-7"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "(ON)-OFF-(ON)"
+				(at -0.254 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(symbol "S700-1-7_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy 2.54 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.9486 2.5424) (xy 3.0835 2.5359) (xy 2.5096 1.8588) (xy 1.9486 2.523)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.1281 -2.5254) (xy 1.9932 -2.5189) (xy 2.5671 -1.8418) (xy 3.1281 -2.506)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "S700-1-7_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "AeroElectricConnectionSymbols:S700-2-50"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 9.906 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Desc"
+				(at 0 8.382 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "S700-2-50"
+				(at 0.254 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "(ON)-ON-ON"
+				(at -0.254 -8.382 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(symbol "S700-2-50_0_1"
+				(rectangle
+					(start -3.81 7.62)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy 2.54 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -3.81) (xy 2.54 -6.35) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.9037 -1.2657) (xy 3.0386 -1.2722) (xy 2.4647 -1.9493) (xy 1.9037 -1.2851)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 6.35)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0.7119 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.27)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.81) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 0.7119 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -6.35)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 0 0 0 1)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.35) (xy 2.54 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 2.54 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "S700-2-50_1_1"
+				(pin passive line
+					(at -6.35 3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 6.35 180)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LRU_2x_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LRU"
+				(at -1.524 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at -1.524 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TBD"
+				(at 0 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Description" "Generic LRU, 2 Connections"
+				(at 1.778 -6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LRU_2x_1_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LRU_2x_1_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "Ylw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Blk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LRU_2x_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LRU"
+				(at -1.524 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at -1.524 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TBD"
+				(at 0 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Description" "Generic LRU, 2 Connections"
+				(at 1.778 -6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LRU_2x_2_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LRU_2x_2_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "Ylw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Blk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LRU_2x_3"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LRU"
+				(at -1.524 0 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at -1.524 4.318 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TBD"
+				(at 0 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Description" "Generic LRU, 2 Connections"
+				(at 1.778 -6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LRU_2x_3_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LRU_2x_3_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "Ylw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Blk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LRU_4x_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LRU"
+				(at -1.27 7.366 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "val A"
+				(at -1.524 -7.366 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "TBD"
+				(at 0 -4.572 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Description" "Generic LRU, 4 Connections"
+				(at 1.778 -6.096 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LRU_4x_1_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LRU_4x_1_1_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "Blu"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "Ylw"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "Blk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "Red"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND2"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "HEATER\nOFF/ON\n"
+		(exclude_from_sim no)
+		(at 35.56 153.67 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03adc31f-8796-46f3-9c22-78fc93114f96")
+	)
+	(text_box "LANDING BRAKE\nEXTEND/RETRACT"
+		(exclude_from_sim no)
+		(at 27.94 80.01 0)
+		(size 19.05 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07287823-4478-4314-856f-63f1b42943ab")
+	)
+	(text_box "CANOPY\nOPEN/CLOSE"
+		(exclude_from_sim no)
+		(at 33.02 55.88 0)
+		(size 13.97 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a3e6994-1ddb-412e-8e92-e8d073194de9")
+	)
+	(text_box "PITCH SERVO\n"
+		(exclude_from_sim no)
+		(at 123.19 29.21 0)
+		(size 7.62 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1879973b-5fe5-4bd3-8103-77de8f48169e")
+	)
+	(text_box "PITOT HEAT\nOFF/ON"
+		(exclude_from_sim no)
+		(at 29.21 177.8 0)
+		(size 12.7 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19a0e40c-115a-4656-9b4d-a1afa739fce6")
+	)
+	(text_box "FUEL PROBES"
+		(exclude_from_sim no)
+		(at 36.83 125.73 0)
+		(size 10.16 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48e7399c-f839-4fda-8194-002a985f5125")
+	)
+	(text_box "ROLL SERVO"
+		(exclude_from_sim no)
+		(at 123.19 13.97 0)
+		(size 8.89 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "74d36f15-5089-4df9-944a-87aacc86a258")
+	)
+	(text_box "FUEL BOOST\nOFF/ON/PRIME"
+		(exclude_from_sim no)
+		(at 31.75 17.78 0)
+		(size 16.51 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a520253-745c-4b16-866f-63609a3c45af")
+	)
+	(text_box "NOSE GEAR\nRETRACT/DOWN"
+		(exclude_from_sim no)
+		(at 27.94 104.14 0)
+		(size 19.05 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4c76a61-f1de-4776-9d93-43812fba53c9")
+	)
+	(junction
+		(at 48.26 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19be4ab3-5e05-427d-bc50-db147d3a1ec4")
+	)
+	(junction
+		(at 52.07 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cd76184-f83d-46e1-93a0-cb3b7fcf41c0")
+	)
+	(junction
+		(at 120.65 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d15c701-b3a0-4ea6-bd03-0bf87fa1870e")
+	)
+	(junction
+		(at 41.91 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a19a09ea-46a1-4352-9f40-22a0d3c2de47")
+	)
+	(no_connect
+		(at 63.5 115.57)
+		(uuid "57f9a7b4-c8b1-4bfa-adb8-472cb4733377")
+	)
+	(no_connect
+		(at 63.5 66.04)
+		(uuid "66a6a713-166e-44de-b11c-2f70cd55ca69")
+	)
+	(no_connect
+		(at 54.61 40.64)
+		(uuid "87f30234-aa8c-4b6a-937f-073d024fa32a")
+	)
+	(no_connect
+		(at 54.61 33.02)
+		(uuid "8dac7581-4d68-4863-9a9e-c4179157d7e1")
+	)
+	(no_connect
+		(at 63.5 91.44)
+		(uuid "a7af8f10-5509-4b94-ba79-ec55d98100e5")
+	)
+	(wire
+		(pts
+			(xy 57.15 113.03) (xy 63.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d74f7f-a364-4b2b-a107-8e0b76c51a59")
+	)
+	(wire
+		(pts
+			(xy 52.07 148.59) (xy 55.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112b4de4-6088-4193-848b-a737dcee199f")
+	)
+	(wire
+		(pts
+			(xy 48.26 143.51) (xy 55.88 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169dd6e2-0bb0-4acd-8cac-e7efac1476c7")
+	)
+	(wire
+		(pts
+			(xy 60.96 96.52) (xy 63.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2589bd4b-d432-49e8-841c-8a67099519a5")
+	)
+	(wire
+		(pts
+			(xy 57.15 88.9) (xy 63.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34b6b1d6-a724-4d72-9c51-e34248c174b3")
+	)
+	(wire
+		(pts
+			(xy 52.07 132.08) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37294987-3fc2-4a26-8d98-e76d930f7be4")
+	)
+	(wire
+		(pts
+			(xy 53.34 162.56) (xy 59.69 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ae6633-e4a9-4fb5-8f25-4171c60d96a8")
+	)
+	(wire
+		(pts
+			(xy 57.15 118.11) (xy 63.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f43b4d-307d-435e-a0f5-77ccfd3103c5")
+	)
+	(wire
+		(pts
+			(xy 55.88 167.64) (xy 59.69 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca0e5a8-25b1-4f1c-a700-8dcb0ab4e5a0")
+	)
+	(wire
+		(pts
+			(xy 48.26 148.59) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5465f84a-a671-41a3-9ed7-522c03bcc792")
+	)
+	(wire
+		(pts
+			(xy 128.27 25.4) (xy 138.43 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54708527-f62e-47e1-a7b4-2323c1436c27")
+	)
+	(wire
+		(pts
+			(xy 127 66.04) (xy 130.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a956133-a0a2-4262-a841-3ba0acf51fa9")
+	)
+	(wire
+		(pts
+			(xy 60.96 71.12) (xy 63.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b7081d1-3973-4723-b013-1fff67b6e523")
+	)
+	(wire
+		(pts
+			(xy 39.37 35.56) (xy 39.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f5367a9-954f-46e2-9606-f47ebbb184ba")
+	)
+	(wire
+		(pts
+			(xy 120.65 25.4) (xy 123.19 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a28ebf-fd89-482d-bebf-965d5147ae8c")
+	)
+	(wire
+		(pts
+			(xy 123.19 40.64) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62fe988f-6392-4f85-ada8-5ff83f6ffd50")
+	)
+	(wire
+		(pts
+			(xy 48.26 137.16) (xy 48.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "637a93b8-3de6-43f5-b466-b1a6c77f320d")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6557d640-5728-4248-b3c7-e54b30bd9d43")
+	)
+	(wire
+		(pts
+			(xy 110.49 25.4) (xy 120.65 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6881c5cf-5f50-4e36-9d18-a4b6bbeb5e9d")
+	)
+	(wire
+		(pts
+			(xy 54.61 27.94) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69aeaf9b-1ac3-4019-a8bf-f7c24a61ba65")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 130.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fce07e2-bdfa-4ad4-83bf-07d8b94f6103")
+	)
+	(wire
+		(pts
+			(xy 33.02 165.1) (xy 40.64 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719fe33d-7e14-4e14-aee4-9af834478a19")
+	)
+	(wire
+		(pts
+			(xy 39.37 33.02) (xy 41.91 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b76d55-ce75-44dd-9d86-c6b034f9b2a9")
+	)
+	(wire
+		(pts
+			(xy 38.1 115.57) (xy 44.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7b6bca-a46e-49ad-b051-94d74a2a3a34")
+	)
+	(wire
+		(pts
+			(xy 60.96 120.65) (xy 63.5 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86578afb-f6d5-4f3b-8e3f-9e922a5b5f02")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 41.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e55972-2a23-4478-b74c-9a18d8833d55")
+	)
+	(wire
+		(pts
+			(xy 134.62 30.48) (xy 138.43 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909034ca-43f2-405a-b636-7bd2e90d0224")
+	)
+	(wire
+		(pts
+			(xy 36.83 137.16) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d2cb6c-a235-4497-9200-469b9c2823b9")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 63.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99bb4292-81a5-4aae-9211-2640087e389f")
+	)
+	(wire
+		(pts
+			(xy 38.1 66.04) (xy 44.45 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b2e82e-4924-4c00-8b50-700044ad130b")
+	)
+	(wire
+		(pts
+			(xy 120.65 25.4) (xy 120.65 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b55727c8-1c36-4503-8613-6bd2d56399eb")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e67e02-e483-4376-a92c-160c37bcf750")
+	)
+	(wire
+		(pts
+			(xy 55.88 132.08) (xy 52.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d36216-e155-4685-8130-85f60c62c95c")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c9b0af-2313-4fe0-86fb-f1aef655c429")
+	)
+	(wire
+		(pts
+			(xy 48.26 137.16) (xy 55.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d5bd3c-7793-46e8-8b68-37386895898f")
+	)
+	(wire
+		(pts
+			(xy 46.99 185.42) (xy 50.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f529c7-6947-49a3-a7ce-d04f78843a53")
+	)
+	(wire
+		(pts
+			(xy 46.99 190.5) (xy 50.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdde58a5-2a6e-4485-aaba-44eb65d6c366")
+	)
+	(wire
+		(pts
+			(xy 54.61 35.56) (xy 60.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce817472-f6ef-47aa-9098-b3fd51bdd569")
+	)
+	(wire
+		(pts
+			(xy 41.91 38.1) (xy 39.37 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d365700e-6874-47d9-93df-c54d98bcf862")
+	)
+	(wire
+		(pts
+			(xy 134.62 45.72) (xy 138.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d719d6f2-db52-40df-835e-aa2168d4b406")
+	)
+	(wire
+		(pts
+			(xy 81.28 27.94) (xy 82.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75afa8f-7013-4f19-abe5-49ecaf3b6165")
+	)
+	(wire
+		(pts
+			(xy 38.1 91.44) (xy 44.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78e6d12-50bb-4868-bf84-67988107f4bd")
+	)
+	(wire
+		(pts
+			(xy 35.56 185.42) (xy 41.91 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a15e08-8a71-42d8-abee-828bc0640cf9")
+	)
+	(wire
+		(pts
+			(xy 128.27 40.64) (xy 138.43 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffdd98dc-a0f3-4709-951f-1b1eb5f2ff1f")
+	)
+	(label "22AWG"
+		(at 55.88 35.56 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "189cb3ee-08d9-4db7-88b4-ca70b3e2a94b")
+	)
+	(label "22AWG"
+		(at 55.88 27.94 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d3d4ae3-354d-4b6d-b2c3-3f7f6c9d1948")
+	)
+	(hierarchical_label "HEAT SYS"
+		(shape passive)
+		(at 33.02 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a353b90-a9ea-49bb-8ae6-77d5e92816e0")
+	)
+	(hierarchical_label "AP_SERVOS"
+		(shape passive)
+		(at 110.49 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7acc59e0-fbf3-4cda-8b61-7d0d44d648e4")
+	)
+	(hierarchical_label "FUEL_PROBE"
+		(shape passive)
+		(at 36.83 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "871877c5-1e44-4b75-8a19-86354ad9eae0")
+	)
+	(hierarchical_label "PNL_FAN"
+		(shape passive)
+		(at 110.49 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8dc63487-bf97-4d36-a0f2-fc4d3c21f42f")
+	)
+	(hierarchical_label "PITOT HEAT"
+		(shape passive)
+		(at 35.56 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9349f8e1-6f68-4387-bc1d-20681de465f3")
+	)
+	(hierarchical_label "FUEL BOOST"
+		(shape passive)
+		(at 38.1 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "985daa83-536a-4203-9f46-db9984640ef3")
+	)
+	(hierarchical_label "LNDG_BRK"
+		(shape passive)
+		(at 38.1 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0051e93-7c23-4c29-a89b-66201b1ae443")
+	)
+	(hierarchical_label "CANOPY_ACT"
+		(shape passive)
+		(at 38.1 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebf56d9b-aba7-4300-93e3-0e9ed7683816")
+	)
+	(hierarchical_label "NOSE_GEAR"
+		(shape passive)
+		(at 38.1 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fab9362e-72c6-43b2-aa50-8e2ff8701bf5")
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 134.62 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0780cfd7-dbd9-4a91-a1ef-995fa9779949")
+		(property "Reference" "#PWR0311"
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1374834-835b-4e9f-9c60-d4c5ae7456f2")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0611")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0711")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:LRU_4x")
+		(at 68.58 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "121feba6-9724-436a-9e62-afaa64b30efa")
+		(property "Reference" "LRU16"
+			(at 69.85 122.936 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 70.104 108.204 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Linear Actuator, Nose Gear"
+			(at 68.58 110.998 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Nose Gear Actuator"
+			(at 69.596 110.49 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7708ec8c-12c5-4417-9d16-1a352586e0e5")
+		)
+		(pin "4"
+			(uuid "0d733838-f9cf-4089-83f0-07e8bce84b47")
+		)
+		(pin "1"
+			(uuid "90e44cb4-3673-4803-a7da-0c1a16b4454d")
+		)
+		(pin "3"
+			(uuid "204ba28b-bd90-4dae-9ba8-dba33fe74a20")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU43")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU16")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:S700-2-50")
+		(at 48.26 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19f79b66-042f-44d1-83a1-bd588b7812b5")
+		(property "Reference" "SW7"
+			(at 48.26 24.384 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Desc"
+			(at 48.26 25.908 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S700-2-50"
+			(at 48.514 45.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(ON)-ON-ON"
+			(at 48.006 42.672 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "33b18f4b-2d61-401c-aea3-25bb0aef48c4")
+		)
+		(pin "3"
+			(uuid "213b4e96-8be7-4ad5-8db4-7b558641b9bc")
+		)
+		(pin "4"
+			(uuid "92c7b7a2-83e9-42a9-a56f-c486162a5f67")
+		)
+		(pin "1"
+			(uuid "5ba4fff3-9e6c-4709-a7ce-b9ed106af9df")
+		)
+		(pin "5"
+			(uuid "cc8a07b0-2470-4226-82c7-0c576524b253")
+		)
+		(pin "6"
+			(uuid "292df2c3-eaaf-4a2c-8c78-fde5aba2b9ae")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "SW14")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "SW7")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 48.26 148.59 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b2c1c65-6ef5-4a91-88da-d38f5ab03779")
+		(property "Reference" "#PWR0302"
+			(at 41.91 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 44.45 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 48.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce247a95-5189-4133-adb5-2ce0c86c48b6")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0602")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 82.55 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2608f88f-c444-4ed2-9209-026562f27744")
+		(property "Reference" "#PWR0308"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 85.598 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb551b17-c1e4-4360-9d7b-ccdd2016fb5b")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0608")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 127 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c2b6952-8020-41b1-8b81-e19a33fb0b61")
+		(property "Reference" "#PWR0309"
+			(at 127 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03f2408c-f384-4f35-9106-c72590afbf11")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0609")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0709")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 46.99 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30569d9f-ee45-4c46-a6ae-9e4f76b57860")
+		(property "Reference" "#PWR0301"
+			(at 46.99 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 46.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+			(at 46.99 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e207247f-301e-4182-bc94-0f4d688c1351")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0601")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_2")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 64.77 165.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "339c7311-c4c4-49a5-9b47-8c0058e50dab")
+		(property "Reference" "LRU13"
+			(at 66.294 165.1 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 66.294 160.782 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Cabin Heater TBD"
+			(at 64.77 169.672 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Description" "Cabin Heater TBD"
+			(at 62.992 171.196 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a7983ea-35c2-4e73-bdf9-39efd44bfcf9")
+		)
+		(pin "2"
+			(uuid "bde385c5-e269-4614-89e9-94781883fb98")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU40")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU13")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 63.5 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3acf7ad2-93f5-4821-a54d-fe9e56a15031")
+		(property "Reference" "LRU12"
+			(at 63.5 42.164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 59.182 42.164 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Elec Prime Valve"
+			(at 68.072 40.64 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Elec Prime Valve"
+			(at 68.58 41.656 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91597c9c-a588-40e4-972f-8b58ba342487")
+		)
+		(pin "2"
+			(uuid "2472cc2c-f955-42e5-9159-2c6673b08806")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU39")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU12")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 60.96 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f011862-2b0a-4e6b-971f-041e45fa2ad7")
+		(property "Reference" "#PWR0304"
+			(at 60.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 60.96 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 60.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d861e17c-6dca-4035-ab78-cdd7c00997af")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0604")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_2")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 135.89 63.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "478abae6-04ab-4874-8575-89d1126e6765")
+		(property "Reference" "LRU18"
+			(at 137.414 63.5 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 137.414 59.182 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Computer Case Fan"
+			(at 135.89 68.072 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Panel Fan"
+			(at 136.398 68.326 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79fb86b8-66df-45c0-b352-92fa133a04a5")
+		)
+		(pin "2"
+			(uuid "75cfff16-1fc1-4485-9bbf-52588fd7651d")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU45")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU18")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:Breaker-Switch")
+		(at 44.45 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48716100-1525-4ee2-b482-d8835700c211")
+		(property "Reference" "B4"
+			(at 44.45 179.324 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 44.45 181.61 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Switch Breaker"
+			(at 44.45 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Desc"
+			(at 44.45 180.594 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a2c0ae48-0989-4707-bd5d-f7d972c03507")
+		)
+		(pin "1"
+			(uuid "c4c59742-4ba5-45b1-8ffd-5b592cb936a6")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "B9")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "B4")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "B13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_2")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 55.88 187.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59a9ceed-cd6a-4d50-8ad0-3663f193a9f3")
+		(property "Reference" "LRU9"
+			(at 57.404 187.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 57.404 183.642 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Pitot Probe"
+			(at 55.88 192.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pitot Probe"
+			(at 56.896 192.532 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a7983ea-35c2-4e73-bdf9-39efd44bfcfa")
+		)
+		(pin "2"
+			(uuid "bde385c5-e269-4614-89e9-94781883fb99")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU36")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU9")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 68.58 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5af86003-3d5d-4b78-9dac-95302d78dec9")
+		(property "Reference" "#PWR0307"
+			(at 74.93 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 72.39 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84394ea2-74b5-4966-b2e1-c85b3a71ba59")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0707")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:LRU_4x")
+		(at 68.58 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6677d0a2-de36-47f9-a154-b930c90882ee")
+		(property "Reference" "LRU15"
+			(at 69.85 98.806 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 70.104 84.074 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Linear Actuator, Lndg Brake"
+			(at 68.58 86.868 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Landing Brake Actuator"
+			(at 69.596 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "62910f53-5438-48ac-b09c-815eab91e034")
+		)
+		(pin "4"
+			(uuid "147bb224-ab9f-4e8b-8ff3-f4cdfd4aa5af")
+		)
+		(pin "1"
+			(uuid "fb0b53a1-b4a3-4dcd-8764-1510b092ed0b")
+		)
+		(pin "3"
+			(uuid "d3a8ec85-fcea-4f1d-83c3-2a4640db97f8")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU42")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU15")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 134.62 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff83a40-6aa4-4381-8558-2b69d2dbb174")
+		(property "Reference" "#PWR0310"
+			(at 134.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 134.62 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 134.62 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "067f220e-05b7-4515-93ab-6861d97c571e")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0610")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0710")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:Breaker-Pullable")
+		(at 125.73 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94465672-903c-4f22-aff2-e147070f576a")
+		(property "Reference" "B6"
+			(at 125.73 20.32 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBDA"
+			(at 125.73 22.606 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Breaker"
+			(at 125.73 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AP Servo"
+			(at 125.73 21.59 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e713cd6-6dac-4a3b-aa47-fb67909bbf4e")
+		)
+		(pin "2"
+			(uuid "c77dbb63-7289-404c-8c92-0f4ad5a8ff1b")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "B11")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "B6")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "B15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:Breaker-Pullable")
+		(at 125.73 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997b1b4a-8056-429e-be8e-83a1f13d898d")
+		(property "Reference" "B7"
+			(at 125.73 35.56 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBDA"
+			(at 125.73 37.846 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Breaker"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AP Servo"
+			(at 125.73 36.83 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75f44dbe-3d51-4b59-a2f7-b9b45b14e1a9")
+		)
+		(pin "2"
+			(uuid "53e1ab3c-01ed-40b2-b60a-8cc506279d88")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "B12")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "B7")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "B16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_1")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 78.74 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5fb16a9-6487-4a3a-9d3a-996c9fbe96e7")
+		(property "Reference" "LRU17"
+			(at 78.74 34.544 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 74.422 34.544 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Fuel Boost Pump TBD"
+			(at 83.312 33.02 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuel Boost Pump"
+			(at 83.312 34.29 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11962769-e1e1-49e8-88b5-e135799ee736")
+		)
+		(pin "2"
+			(uuid "07485ea8-e20e-4895-b59c-2c420344eb17")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU44")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU17")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 60.96 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b82f4f3e-4ac4-4d66-b4cb-6384e73d31fb")
+		(property "Reference" "#PWR0306"
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16ea897d-c848-40ae-8720-a3b77ded9710")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0606")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:S700-1-2")
+		(at 46.99 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e6ebbd-bf32-423a-8af3-e108bcdc95ea")
+		(property "Reference" "SW6"
+			(at 46.99 159.004 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Heater"
+			(at 46.99 160.528 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S700-1-2"
+			(at 46.99 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OFF-none-ON"
+			(at 46.736 169.672 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64652b0f-58d6-45b4-8dc3-7b254fd87446")
+		)
+		(pin "2"
+			(uuid "576feac1-feb0-4486-81da-5d4d9137e786")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "SW13")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "SW6")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_3")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 60.96 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba94c920-5261-4a3f-ab59-f5b6174e3ef5")
+		(property "Reference" "LRU10"
+			(at 62.484 134.62 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 62.484 138.938 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Fuel Probe"
+			(at 60.96 130.048 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "L Fuel Probe"
+			(at 61.214 129.794 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b8c4c9b-b128-4ce7-9610-a0a18dc91aff")
+		)
+		(pin "2"
+			(uuid "dce676b2-dda1-400a-9b08-ac4a1904ef7a")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU37")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU10")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_4x_1")
+		(lib_id "AeroElectricConnectionSymbols:LRU_4x")
+		(at 68.58 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf2ce048-9119-4bab-aaa9-318bf17154d3")
+		(property "Reference" "LRU14"
+			(at 69.85 73.406 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 70.104 58.674 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Linear Actuator, Canopy"
+			(at 68.58 61.468 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Canopy Actuator"
+			(at 69.596 60.96 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1efc119c-673d-4aa7-ab1c-a3e817fa0a44")
+		)
+		(pin "4"
+			(uuid "88794aa5-cecb-4952-8047-b4e6890728d1")
+		)
+		(pin "1"
+			(uuid "33f34a10-9a52-4aa8-adbb-337f6928b070")
+		)
+		(pin "3"
+			(uuid "414f49ce-d3dc-44df-b2e1-c34d6021ebd5")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU41")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU14")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:S700-1-7")
+		(at 50.8 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5acf919-f3e9-461b-b68e-96b1b299744f")
+		(property "Reference" "SW8"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Desc"
+			(at 50.8 61.468 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 62.992 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S700-1-7"
+			(at 50.8 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(ON)-OFF-(ON)"
+			(at 50.546 70.612 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e1f000e1-b87e-477c-8367-22f01b4731bd")
+		)
+		(pin "1"
+			(uuid "21427070-978e-433c-8676-1cb007c15cfb")
+		)
+		(pin "2"
+			(uuid "5d21689e-eb72-4ee6-85ba-442aab9055d3")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "SW15")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "SW8")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:S700-1-7")
+		(at 50.8 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca3c4e84-2a62-417c-9d63-c342fd5d08a2")
+		(property "Reference" "SW10"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Desc"
+			(at 50.8 110.998 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S700-1-7"
+			(at 50.8 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(ON)-OFF-(ON)"
+			(at 50.546 120.142 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "27cc0a11-b5b5-46af-ace7-fb9442841319")
+		)
+		(pin "1"
+			(uuid "902722c9-0856-428a-8988-eb6c5a834310")
+		)
+		(pin "2"
+			(uuid "37a3b4f4-a8a1-4f54-908a-1cfe83df597c")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "SW17")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "SW10")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 55.88 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca70405d-65c0-4f28-af05-3bfb0c076f90")
+		(property "Reference" "#PWR0303"
+			(at 55.88 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 55.88 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3252b14-b30b-4710-bf12-cece13f5b284")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0603")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND2")
+		(at 60.96 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0cb0b9b-679e-4dc5-871a-ac0f0812d3be")
+		(property "Reference" "#PWR0305"
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 60.96 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76a7b646-076f-4d08-ad83-3d3c0978264f")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "#PWR0605")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "#PWR0705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_2")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 143.51 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5d5386f-5d1f-4b42-aef8-1a829b4e5e3c")
+		(property "Reference" "LRU19"
+			(at 145.034 27.94 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 145.034 23.622 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GSA 28"
+			(at 143.51 32.512 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Description" "Roll Servo"
+			(at 144.018 34.036 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08d72afd-f810-4256-a9ca-2d4cddec18a8")
+		)
+		(pin "2"
+			(uuid "f2b888f3-79c4-4f09-a3f4-8f2c39d0a529")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU46")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU19")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:S700-1-7")
+		(at 50.8 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e02676ce-0ae3-4e61-9f78-e59b4c1fbdd8")
+		(property "Reference" "SW9"
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Desc"
+			(at 50.8 86.868 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S700-1-7"
+			(at 50.8 98.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "(ON)-OFF-(ON)"
+			(at 50.546 96.012 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b2728b1b-c0d5-41ef-a68c-f2c8bd2b7957")
+		)
+		(pin "1"
+			(uuid "431e5912-5e8e-4a28-996c-ac860d1eacc3")
+		)
+		(pin "2"
+			(uuid "7da90dfd-eede-4cb2-b072-98667075503f")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "SW16")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "SW9")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AeroElectricConnectionSymbols:Breaker-Pullable")
+		(at 45.72 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e06054d3-9539-4a63-a912-026d84bcea8c")
+		(property "Reference" "B5"
+			(at 45.72 132.842 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBDA"
+			(at 45.72 134.366 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Breaker"
+			(at 45.72 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuel Probe Breaker"
+			(at 45.72 133.35 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8dddbab-c584-45a5-91d6-9b46aba21957")
+		)
+		(pin "2"
+			(uuid "7359be1d-16e9-4299-af7b-14d24fde7966")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "B10")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "B5")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "B14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_3")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 60.96 146.05 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1cae342-5aa8-419e-88fa-68be7d0f4bce")
+		(property "Reference" "LRU11"
+			(at 62.484 146.05 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 62.484 150.368 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Fuel Probe"
+			(at 60.96 141.478 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "R Fuel Probe"
+			(at 61.214 141.224 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82ae0019-a75b-4f21-8c6f-be778f162efb")
+		)
+		(pin "2"
+			(uuid "3021c7e7-787e-4728-93e5-345b4d8636dc")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU38")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU11")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LRU_2x_2")
+		(lib_id "AeroElectricConnectionSymbols:LRU_2x")
+		(at 143.51 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f940f2bf-0aba-42ff-aa29-04d260d22371")
+		(property "Reference" "LRU20"
+			(at 145.034 43.18 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "val A"
+			(at 145.034 38.862 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GSA 28"
+			(at 143.51 47.752 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Description" "Roll Servo"
+			(at 144.018 49.276 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34267795-54fc-4053-b506-6d56b00e4367")
+		)
+		(pin "2"
+			(uuid "5390677d-fc5f-4063-95ac-4fa2b565e5f7")
+		)
+		(instances
+			(project "657CZ_elec"
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/441723cf-37d4-45ce-adb4-d5d53f33843d"
+					(reference "LRU47")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/633f0736-8a14-43f8-927f-9e360ccff2e0"
+					(reference "LRU20")
+					(unit 1)
+				)
+				(path "/337680a9-f1d2-41ee-867f-8486578a1dde/6db52f12-2a1a-40b0-aab4-7e21f48b580c"
+					(reference "LRU59")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
