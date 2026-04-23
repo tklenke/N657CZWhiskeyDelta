@@ -2853,7 +2853,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(41.3,24.9,-1.3)R20"
 			(at 224.79 77.47 0)
 			(effects
 				(font
@@ -2951,7 +2951,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L4"
+		(property "LocLoad" "(3.9,11.3,-2.3)L4"
 			(at 247.65 83.82 0)
 			(effects
 				(font
@@ -3115,7 +3115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L3"
+		(property "LocLoad" "(163.1,17.7,-168.8)L3"
 			(at 257.81 127 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "INTR LED AFT"
 			(at 237.49 27.94 0)
 			(effects
 				(font
@@ -3207,7 +3207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L2"
+		(property "LocLoad" "(124,21,-19)L2"
 			(at 237.49 33.02 0)
 			(effects
 				(font
@@ -3295,7 +3295,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L4"
+		(property "LocLoad" "(40,23,-5)L4"
 			(at 223.52 48.26 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "INTR LGHT LED FWD"
 			(at 237.49 15.24 0)
 			(effects
 				(font
@@ -3591,7 +3591,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L2"
+		(property "LocLoad" "(41,19,20)L2"
 			(at 237.49 20.32 0)
 			(effects
 				(font
@@ -3681,7 +3681,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L3"
+		(property "LocLoad" "(163.1,17.7,168.8)L3"
 			(at 257.81 110.49 0)
 			(effects
 				(font
@@ -3776,7 +3776,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L1"
+		(property "LocLoad" "(40,23,6)L1"
 			(at 180.34 115.57 0)
 			(effects
 				(font
@@ -3894,7 +3894,7 @@
 				)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "LV EBUS WARN"
 			(at 158.4325 104.14 0)
 			(effects
 				(font
@@ -3938,7 +3938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L1"
+		(property "LocLoad" "(41.3,22.9,6.)L1"
 			(at 160.02 107.95 0)
 			(effects
 				(font
@@ -4091,7 +4091,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L5"
+		(property "LocLoad" "(40,21,-16)L5"
 			(at 180.34 77.47 0)
 			(effects
 				(font
@@ -4132,7 +4132,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Variable_US"
+		(property "Value" "INTR LGHT DIM"
 			(at 204.5081 26.67 90)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R4"
+		(property "LocLoad" "(41.3,22.9,-4.6)R4"
 			(at 204.47 30.48 90)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 				)
 			)
 		)
-		(property "Value" "Desc"
+		(property "Value" "NAV+STRB"
 			(at 227.33 110.998 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4265,7 +4265,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(41.3,24.9,-.3)R20"
 			(at 227.33 119.38 0)
 			(effects
 				(font
@@ -4363,7 +4363,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L4"
+		(property "LocLoad" "(3.9,11.3,2.3)L4"
 			(at 240.03 78.74 0)
 			(effects
 				(font

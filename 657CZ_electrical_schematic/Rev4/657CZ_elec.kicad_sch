@@ -15026,7 +15026,7 @@
 				)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R15"
+		(property "LocLoad" "(41.3,22.9,-3.9)R15"
 			(at 59.69 166.37 0)
 			(effects
 				(font
@@ -15334,7 +15334,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(41,23,2)R20"
 			(at 200.66 128.27 0)
 			(effects
 				(font
@@ -15418,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(41.3,22.9,1.8)R20"
 			(at 191.77 132.08 0)
 			(effects
 				(font
@@ -15518,7 +15518,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R3"
+		(property "LocLoad" "(123,29,-2)R3"
 			(at 139.7 24.13 0)
 			(effects
 				(font
@@ -15763,7 +15763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R60"
+		(property "LocLoad" "(48.3,1.2,9.4)R60"
 			(at 130.81 140.97 90)
 			(effects
 				(font
@@ -16176,7 +16176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(123,31,-8)R20"
 			(at 100.33 55.88 90)
 			(effects
 				(font
@@ -16570,7 +16570,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R60"
+		(property "LocLoad" "(47.3,1.2,-5.9)R60"
 			(at 81.28 140.97 90)
 			(effects
 				(font
@@ -16864,7 +16864,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(41.3,22.9,.8)R20"
 			(at 191.77 158.75 0)
 			(effects
 				(font
@@ -17114,7 +17114,7 @@
 				(justify left)
 			)
 		)
-		(property "LocLoad" "(0,0,0)G"
+		(property "LocLoad" "(122.3,29.1,-2.9)G"
 			(at 26.67 198.12 0)
 			(effects
 				(font
@@ -17379,7 +17379,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L5"
+		(property "LocLoad" "(122.5,25.8,-5.5)L5"
 			(at 217.17 160.02 0)
 			(effects
 				(font
@@ -17482,7 +17482,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R30"
+		(property "LocLoad" "(47,1,-6)R30"
 			(at 120.65 105.41 0)
 			(effects
 				(font
@@ -17829,7 +17829,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(46.6,1.5,-10.4)R20"
 			(at 50.8 143.51 0)
 			(effects
 				(font
@@ -18009,7 +18009,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R10"
+		(property "LocLoad" "(47,2,-10)R10"
 			(at 43.18 121.92 0)
 			(effects
 				(font
@@ -18182,7 +18182,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R3"
+		(property "LocLoad" "(123,29,-1)R3"
 			(at 129.54 24.13 0)
 			(effects
 				(font
@@ -18270,7 +18270,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(131,25,-6)R20"
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -18786,7 +18786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)S12"
+		(property "LocLoad" "(44.,4.2,-5.9)S12"
 			(at 34.29 111.76 90)
 			(effects
 				(font
@@ -18875,7 +18875,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)L10"
+		(property "LocLoad" "(130.8,24.5,-6.2)L10"
 			(at 218.44 125.73 0)
 			(effects
 				(font
@@ -19040,7 +19040,7 @@
 				)
 			)
 		)
-		(property "LocLoad" "(0,0,0)G"
+		(property "LocLoad" "(39.6,4.8,-3.8)G"
 			(at 33.02 198.12 0)
 			(effects
 				(font
@@ -19294,7 +19294,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R20"
+		(property "LocLoad" "(48.6,1.5,-10.4)R20"
 			(at 64.77 121.92 0)
 			(effects
 				(font
@@ -19548,7 +19548,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R5"
+		(property "LocLoad" "(41.3,24.9,-5.2)R5"
 			(at 147.32 107.95 0)
 			(effects
 				(font
@@ -19727,7 +19727,7 @@
 				(hide yes)
 			)
 		)
-		(property "LocLoad" "(0,0,0)R5"
+		(property "LocLoad" "(48,1,9)R5"
 			(at 138.43 104.14 0)
 			(effects
 				(font
@@ -19803,7 +19803,7 @@
 				)
 			)
 		)
-		(property "LocLoad" "(0,0,0)G"
+		(property "LocLoad" "(140.7,18.,9.7)G"
 			(at 20.32 198.12 0)
 			(effects
 				(font
