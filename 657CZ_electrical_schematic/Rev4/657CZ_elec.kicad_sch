@@ -10833,6 +10833,16 @@
 		)
 		(uuid "1b24f50f-e757-4a12-90b6-27d29be823d5")
 	)
+	(text "NAV INTRFCE\n0.5A"
+		(exclude_from_sim no)
+		(at 82.042 154.178 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "20614dff-66ce-4724-89e3-97219d56c155")
+	)
 	(text "AP PNL\n0.5A"
 		(exclude_from_sim no)
 		(at 125.984 110.236 0)
@@ -11364,10 +11374,6 @@
 		(uuid "39a7db56-ab79-41f9-aa76-7cd4c19c2121")
 	)
 	(no_connect
-		(at 86.36 156.21)
-		(uuid "3a407dac-0197-4cff-80f3-6243957bb94d")
-	)
-	(no_connect
 		(at 62.23 92.71)
 		(uuid "56c4b207-8da1-4b0b-b92a-d6a58cbd3f48")
 	)
@@ -11507,7 +11513,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 186.69) (xy 157.48 186.69)
+			(xy 13.97 187.96) (xy 157.48 187.96)
 		)
 		(stroke
 			(width 0)
@@ -11737,7 +11743,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 143.51) (xy 91.44 143.51)
+			(xy 86.36 156.21) (xy 95.25 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289f3d96-dc78-43ea-9651-0c7a53a53bcf")
+	)
+	(wire
+		(pts
+			(xy 90.17 139.7) (xy 92.71 139.7)
 		)
 		(stroke
 			(width 0)
@@ -11837,7 +11853,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 149.86) (xy 99.06 149.86)
+			(xy 86.36 149.86) (xy 91.44 149.86)
 		)
 		(stroke
 			(width 0)
@@ -11927,6 +11943,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 133.35) (xy 91.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d390884-8891-4fb6-9050-5f79e151abf8")
+	)
+	(wire
+		(pts
 			(xy 100.33 39.37) (xy 104.14 39.37)
 		)
 		(stroke
@@ -11947,7 +11973,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 118.11) (xy 91.44 118.11)
+			(xy 86.36 118.11) (xy 92.71 118.11)
 		)
 		(stroke
 			(width 0)
@@ -12137,7 +12163,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 167.64) (xy 154.94 185.42)
+			(xy 154.94 167.64) (xy 154.94 186.69)
 		)
 		(stroke
 			(width 0)
@@ -12167,13 +12193,23 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 190.5) (xy 109.22 190.5)
+			(xy 16.51 185.42) (xy 109.22 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a199861-1528-4433-adee-bd16c61ed58a")
+	)
+	(wire
+		(pts
+			(xy 95.25 146.05) (xy 102.87 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac7328c-80ad-418e-b4c6-97456f0f7805")
 	)
 	(wire
 		(pts
@@ -12237,7 +12273,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 91.44 111.76)
+			(xy 86.36 111.76) (xy 92.71 111.76)
 		)
 		(stroke
 			(width 0)
@@ -12377,7 +12413,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 137.16) (xy 91.44 137.16)
+			(xy 91.44 133.35) (xy 92.71 133.35)
 		)
 		(stroke
 			(width 0)
@@ -12537,7 +12573,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 73.66) (xy 15.24 185.42)
+			(xy 15.24 73.66) (xy 15.24 186.69)
 		)
 		(stroke
 			(width 0)
@@ -12577,7 +12613,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 185.42) (xy 15.24 185.42)
+			(xy 154.94 186.69) (xy 15.24 186.69)
 		)
 		(stroke
 			(width 0)
@@ -12687,7 +12723,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 80.01) (xy 16.51 190.5)
+			(xy 16.51 80.01) (xy 16.51 185.42)
 		)
 		(stroke
 			(width 0)
@@ -12767,6 +12803,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 137.16) (xy 86.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9967a613-77bd-42b4-8913-c4039b5d09b8")
+	)
+	(wire
+		(pts
 			(xy 54.61 128.27) (xy 54.61 135.89)
 		)
 		(stroke
@@ -12774,6 +12820,16 @@
 			(type default)
 		)
 		(uuid "9ae465b9-085e-477d-a529-3b106ff7114b")
+	)
+	(wire
+		(pts
+			(xy 90.17 139.7) (xy 90.17 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1084b9-bb24-4ae6-a0e2-68b2ff451bbd")
 	)
 	(wire
 		(pts
@@ -12847,7 +12903,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 124.46) (xy 91.44 124.46)
+			(xy 86.36 124.46) (xy 92.71 124.46)
 		)
 		(stroke
 			(width 0)
@@ -13127,6 +13183,26 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 142.24) (xy 92.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba31964-7df9-4aa6-9f1d-9ab432feb145")
+	)
+	(wire
+		(pts
+			(xy 102.87 146.05) (xy 102.87 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4ed8cd-8e80-429f-83aa-8c2dec314377")
+	)
+	(wire
+		(pts
 			(xy 13.97 67.31) (xy 62.23 67.31)
 		)
 		(stroke
@@ -13237,7 +13313,7 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 186.69) (xy 13.97 67.31)
+			(xy 13.97 187.96) (xy 13.97 67.31)
 		)
 		(stroke
 			(width 0)
@@ -13257,7 +13333,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 149.86) (xy 99.06 144.78)
+			(xy 91.44 149.86) (xy 91.44 142.24)
 		)
 		(stroke
 			(width 0)
@@ -13314,6 +13390,16 @@
 			(type default)
 		)
 		(uuid "d77a3cf0-592b-4124-9c02-b7dd04a63060")
+	)
+	(wire
+		(pts
+			(xy 90.17 143.51) (xy 86.36 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88cf412-ced3-4ebe-a2aa-da1c60955ea4")
 	)
 	(wire
 		(pts
@@ -13527,7 +13613,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 130.81) (xy 91.44 130.81)
+			(xy 86.36 130.81) (xy 92.71 130.81)
 		)
 		(stroke
 			(width 0)
@@ -13547,7 +13633,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 190.5) (xy 109.22 171.45)
+			(xy 109.22 185.42) (xy 109.22 171.45)
 		)
 		(stroke
 			(width 0)
@@ -13564,6 +13650,16 @@
 			(type default)
 		)
 		(uuid "f1e4843c-d0b8-4632-829c-c1f14645885d")
+	)
+	(wire
+		(pts
+			(xy 95.25 156.21) (xy 95.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b20cc7-675b-4dda-aa08-0746c8a723f3")
 	)
 	(wire
 		(pts
@@ -13607,7 +13703,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 170.18) (xy 157.48 186.69)
+			(xy 157.48 170.18) (xy 157.48 187.96)
 		)
 		(stroke
 			(width 0)
@@ -13774,6 +13870,16 @@
 			(justify left bottom)
 		)
 		(uuid "1e900291-972a-43f7-a0ea-28b0409a363f")
+	)
+	(label "A11A"
+		(at 87.63 156.21 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ee75ed3-c787-4e20-a63f-113a6d991920")
 	)
 	(label "E42A"
 		(at 143.51 111.76 0)
@@ -20433,8 +20539,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 110.49)
-		(size 26.67 34.29)
+		(at 92.71 110.49)
+		(size 25.4 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20449,7 +20555,7 @@
 		)
 		(uuid "fef9b112-f892-46ee-a7a3-9df44ac519ec")
 		(property "Sheetname" "Avionics"
-			(at 91.44 109.7784 0)
+			(at 92.71 109.7784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20458,7 +20564,7 @@
 			)
 		)
 		(property "Sheetfile" "avionics.kicad_sch"
-			(at 91.44 145.3646 0)
+			(at 92.71 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20468,7 +20574,7 @@
 			)
 		)
 		(pin "AUDIO_PNL" passive
-			(at 91.44 124.46 180)
+			(at 92.71 124.46 180)
 			(uuid "49ff392f-008d-4e05-a979-88a83e6d168d")
 			(effects
 				(font
@@ -20478,7 +20584,7 @@
 			)
 		)
 		(pin "XPONDER" passive
-			(at 91.44 130.81 180)
+			(at 92.71 130.81 180)
 			(uuid "03a8e752-666f-48e7-9d34-88117ba92dce")
 			(effects
 				(font
@@ -20488,7 +20594,7 @@
 			)
 		)
 		(pin "MAGNTMTR" passive
-			(at 91.44 137.16 180)
+			(at 92.71 133.35 180)
 			(uuid "29e2789b-80f9-48fd-8d99-06ebe442f4ce")
 			(effects
 				(font
@@ -20498,7 +20604,7 @@
 			)
 		)
 		(pin "G3X_SYS" passive
-			(at 91.44 111.76 180)
+			(at 92.71 111.76 180)
 			(uuid "1a865d1d-e886-46f3-aa58-25700533bca8")
 			(effects
 				(font
@@ -20508,7 +20614,7 @@
 			)
 		)
 		(pin "G5_1" passive
-			(at 91.44 143.51 180)
+			(at 92.71 139.7 180)
 			(uuid "fc7d6866-5609-491b-ae7d-5a4c8b2534dc")
 			(effects
 				(font
@@ -20518,7 +20624,7 @@
 			)
 		)
 		(pin "COMM1" passive
-			(at 91.44 118.11 180)
+			(at 92.71 118.11 180)
 			(uuid "17439370-6cc0-4f78-959b-2a0a41c7afa4")
 			(effects
 				(font
@@ -20548,8 +20654,18 @@
 			)
 		)
 		(pin "GPSNAV" passive
-			(at 99.06 144.78 270)
+			(at 92.71 142.24 180)
 			(uuid "00aedbd6-2eef-4bc0-bbec-49236a85324b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A429INFC" passive
+			(at 102.87 144.78 270)
+			(uuid "b8194f0c-6389-4c61-8adc-67f25aa64d6c")
 			(effects
 				(font
 					(size 1.27 1.27)

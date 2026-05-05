@@ -611,7 +611,7 @@
     },
     "net_format_name": "KiCad",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../../Downloads/657CZ_elec/Rev4Schematic/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
