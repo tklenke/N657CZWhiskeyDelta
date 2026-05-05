@@ -467,6 +467,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND3\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "G5"
 		(exclude_from_sim no)
@@ -497,6 +598,572 @@
 			)
 		)
 		(uuid "ee3e499c-cdcb-4738-b1b5-8d89990255ce")
+	)
+	(no_connect
+		(at 48.26 40.64)
+		(uuid "08d385c7-0524-42aa-9cbc-40e2c21c9e0e")
+	)
+	(no_connect
+		(at 90.17 45.72)
+		(uuid "0d1012e2-8a75-4cba-ba96-94bcf12fb9ab")
+	)
+	(no_connect
+		(at 90.17 53.34)
+		(uuid "0edfbcf0-3c14-415a-83a1-b4ef887bb4e8")
+	)
+	(no_connect
+		(at 90.17 43.18)
+		(uuid "3fda0c92-a3bd-4abb-b026-66953c7f0dc8")
+	)
+	(no_connect
+		(at 48.26 35.56)
+		(uuid "fb30d0e6-20df-404a-b6e7-6ef0574d0df1")
+	)
+	(wire
+		(pts
+			(xy 48.26 55.88) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a236d15-f29e-4c65-86a4-ce3f7f26a371")
+	)
+	(wire
+		(pts
+			(xy 149.86 54.61) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d73aa6-3800-466f-ab78-0c7aa268f306")
+	)
+	(wire
+		(pts
+			(xy 48.26 53.34) (xy 90.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b672baf-0d50-42f8-98fc-199be8030421")
+	)
+	(wire
+		(pts
+			(xy 48.26 43.18) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfd4cd9-7543-455c-aa35-002c39b72590")
+	)
+	(wire
+		(pts
+			(xy 48.26 38.1) (xy 90.17 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4adcd9-75ef-49cf-9940-7b1caaa2d004")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5311ea0d-9d65-4870-b989-ef40ffc03f74")
+	)
+	(wire
+		(pts
+			(xy 149.86 46.99) (xy 191.77 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4957d4-ffa5-4005-8425-b88a7588f546")
+	)
+	(wire
+		(pts
+			(xy 149.86 49.53) (xy 191.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85935655-7a4c-4a00-b392-33f8c8532411")
+	)
+	(wire
+		(pts
+			(xy 149.86 39.37) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88eef51f-170c-4606-a538-032ccc3155c9")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a24e047-601c-40db-ba62-dd041fe43546")
+	)
+	(wire
+		(pts
+			(xy 149.86 44.45) (xy 191.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d7bbde2-296b-4ac0-9994-a2853866b992")
+	)
+	(wire
+		(pts
+			(xy 149.86 52.07) (xy 191.77 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38c4eb7-84a3-45e4-bf0b-033767dcd19a")
+	)
+	(wire
+		(pts
+			(xy 48.26 48.26) (xy 90.17 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf188a91-51ee-4d10-acad-add3b27d0f0a")
+	)
+	(wire
+		(pts
+			(xy 149.86 36.83) (xy 191.77 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d5436b-a3c0-44a5-85d8-32a7e1eb055a")
+	)
+	(wire
+		(pts
+			(xy 149.86 57.15) (xy 191.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f825e0c7-27cd-455e-b44e-dd7d8dcf5c13")
+	)
+	(wire
+		(pts
+			(xy 149.86 41.91) (xy 191.77 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb382ec5-9827-4f16-bb92-03ca0d5f1d82")
+	)
+	(label "A50A"
+		(at 50.8 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0087d049-317b-4921-a570-0b7a07698e88")
+	)
+	(label "NC"
+		(at 50.8 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a5f5c8a-23a6-4427-8437-b059a1c10302")
+	)
+	(label "POWER GROUND"
+		(at 171.45 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f2c7710-c8aa-4746-a3a5-107a8da80f53")
+	)
+	(label "SIGNAL GROUND"
+		(at 171.45 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1896d818-fc60-477e-954b-13f03dc7337c")
+	)
+	(label "@@TOM"
+		(at 152.4 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1aaaca80-73a7-41d8-95f5-8129f42d9bc1")
+	)
+	(label "@@TOM"
+		(at 152.4 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ce3c73b-fa10-4dc0-b2ae-f4963e1652c3")
+	)
+	(label "D001A"
+		(at 152.4 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d48a2bb-503d-40c7-92c1-4caa37acca6b")
+	)
+	(label "POWER GROUND"
+		(at 69.85 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fefb452-f711-4cb0-b7a9-d1ad00a52b73")
+	)
+	(label "D002A"
+		(at 152.4 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24cb7d2f-1d23-4e9c-b541-eab1c8a67c77")
+	)
+	(label "@@TOM"
+		(at 152.4 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34930ff0-7839-48a5-9d76-51a08ee351b6")
+	)
+	(label "NC"
+		(at 50.8 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "364a4645-18af-4747-88cd-af53bcc5915c")
+	)
+	(label "@@TOM"
+		(at 152.4 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a38cb74-8db9-4e0b-a233-ae768a3ee154")
+	)
+	(label "RS-232 RX 1"
+		(at 171.45 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bac1180-48d5-4858-be52-9c73d5e57967")
+	)
+	(label "D1A"
+		(at 50.8 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "402c1a3d-3f35-4eff-916d-4d15172c7e46")
+	)
+	(label "SIGNAL GROUND"
+		(at 69.85 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50182dea-109e-4607-b558-899079311ea2")
+	)
+	(label "AIRCRAFT POWER 2"
+		(at 69.85 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "525654aa-439d-4006-ab37-f49b48a98d09")
+	)
+	(label "NC"
+		(at 50.8 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dd8e816-cba8-4152-a789-478f77466d3e")
+	)
+	(label "@@TOM"
+		(at 152.4 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83695951-90b7-4016-acad-505aa929a44c")
+	)
+	(label "AIRCRAFT POWER 1"
+		(at 171.45 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8abb91f9-0257-404a-883e-023018005624")
+	)
+	(label "RS-232 TX 1"
+		(at 171.45 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d66af83-8bca-4fdc-bf46-964db0e5f5b8")
+	)
+	(label "CAN-L"
+		(at 171.45 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f3e61c0-4701-4fff-9eae-2b1e6c507089")
+	)
+	(label "G102A"
+		(at 50.8 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac0c467f-4496-4844-b4ce-4428fcbaa796")
+	)
+	(label "AIRCRAFT POWER 1"
+		(at 69.85 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad933768-c67e-448e-89fb-536a99e6a1d8")
+	)
+	(label "D2A"
+		(at 50.8 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b15382da-69e7-4f76-b5a7-3e6a0c86526f")
+	)
+	(label "AIRCRAFT POWER 2"
+		(at 171.45 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b401f8fe-107f-4633-9245-c5baeea191c5")
+	)
+	(label "@@TOM"
+		(at 152.4 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b463fa4c-949b-4181-b957-8c25039d8c23")
+	)
+	(label "CAN-H"
+		(at 171.45 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c57fd380-3492-4d78-b95b-420875a31ed7")
+	)
+	(label "UNIT ID"
+		(at 171.45 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d182651f-c6c5-4bb4-908c-6de49ace738f")
+	)
+	(label "UNIT ID"
+		(at 69.85 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb46070f-dc27-47b8-848e-5b77e0bd72ae")
+	)
+	(label "CAN BUS LO"
+		(at 69.85 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f956c89a-74c2-4db9-9336-2292e5200169")
+	)
+	(label "CAN BUS HI"
+		(at 69.85 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc20970a-0d37-46f1-80f6-629c8609bf92")
+	)
+	(label "@@TOM"
+		(at 152.4 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc6a0a7b-86a0-48fb-9f29-d50d19f1fda5")
+	)
+	(global_label "VEBUS"
+		(shape input)
+		(at 90.17 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36f83288-29e9-4d0a-8e31-4a26370a14a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.2028 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN LO"
+		(shape input)
+		(at 90.17 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39cc3ef5-db7b-415a-9313-d3bc78d3f4db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1705 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN HI"
+		(shape input)
+		(at 90.17 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9620992-073c-428f-8b73-43e53a98c241")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.7472 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:DE9_Socket")
@@ -582,6 +1249,70 @@
 			(project "657CZ_data_schematic"
 				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42/5f6f33d5-5da4-4c86-8caa-5c99f5652740"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND3")
+		(at 90.17 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "849544ef-f9d3-4641-9bbf-308d31008229")
+		(property "Reference" "GND015"
+			(at 96.52 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND3"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pnl"
+			(at 93.472 36.576 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8611907-8eca-43ed-9ad1-07127ac519db")
+		)
+		(instances
+			(project "657CZ_data_schematic"
+				(path "/08b762ad-7425-46ec-8a78-0f840ea4bf42/5f6f33d5-5da4-4c86-8caa-5c99f5652740"
+					(reference "GND015")
 					(unit 1)
 				)
 			)
@@ -675,494 +1406,5 @@
 				)
 			)
 		)
-	)
-
-	(wire
-		(pts
-			(xy 149.86 57.15) (xy 191.77 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f825e0c7-27cd-455e-b44e-dd7d8dcf5c13")
-	)
-	(label "D002A"
-		(at 152.40 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "24cb7d2f-1d23-4e9c-b541-eab1c8a67c77")
-	)
-	(label "CAN-H"
-		(at 171.45 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c57fd380-3492-4d78-b95b-420875a31ed7")
-	)
-	(wire
-		(pts
-			(xy 149.86 54.61) (xy 191.77 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18d73aa6-3800-466f-ab78-0c7aa268f306")
-	)
-	(label "@@TOM"
-		(at 152.40 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83695951-90b7-4016-acad-505aa929a44c")
-	)
-	(label "SIGNAL GROUND"
-		(at 171.45 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1896d818-fc60-477e-954b-13f03dc7337c")
-	)
-	(wire
-		(pts
-			(xy 149.86 52.07) (xy 191.77 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a38c4eb7-84a3-45e4-bf0b-033767dcd19a")
-	)
-	(label "D001A"
-		(at 152.40 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d48a2bb-503d-40c7-92c1-4caa37acca6b")
-	)
-	(label "CAN-L"
-		(at 171.45 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f3e61c0-4701-4fff-9eae-2b1e6c507089")
-	)
-	(wire
-		(pts
-			(xy 149.86 49.53) (xy 191.77 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85935655-7a4c-4a00-b392-33f8c8532411")
-	)
-	(label "@@TOM"
-		(at 152.40 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1aaaca80-73a7-41d8-95f5-8129f42d9bc1")
-	)
-	(label "AIRCRAFT POWER 1"
-		(at 171.45 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8abb91f9-0257-404a-883e-023018005624")
-	)
-	(wire
-		(pts
-			(xy 149.86 46.99) (xy 191.77 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4957d4-ffa5-4005-8425-b88a7588f546")
-	)
-	(label "@@TOM"
-		(at 152.40 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ce3c73b-fa10-4dc0-b2ae-f4963e1652c3")
-	)
-	(label "UNIT ID"
-		(at 171.45 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d182651f-c6c5-4bb4-908c-6de49ace738f")
-	)
-	(wire
-		(pts
-			(xy 149.86 44.45) (xy 191.77 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d7bbde2-296b-4ac0-9994-a2853866b992")
-	)
-	(label "@@TOM"
-		(at 152.40 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b463fa4c-949b-4181-b957-8c25039d8c23")
-	)
-	(label "AIRCRAFT POWER 2"
-		(at 171.45 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b401f8fe-107f-4633-9245-c5baeea191c5")
-	)
-	(wire
-		(pts
-			(xy 149.86 41.91) (xy 191.77 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb382ec5-9827-4f16-bb92-03ca0d5f1d82")
-	)
-	(label "@@TOM"
-		(at 152.40 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc6a0a7b-86a0-48fb-9f29-d50d19f1fda5")
-	)
-	(label "RS-232 RX 1"
-		(at 171.45 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3bac1180-48d5-4858-be52-9c73d5e57967")
-	)
-	(wire
-		(pts
-			(xy 149.86 39.37) (xy 191.77 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88eef51f-170c-4606-a538-032ccc3155c9")
-	)
-	(label "@@TOM"
-		(at 152.40 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "34930ff0-7839-48a5-9d76-51a08ee351b6")
-	)
-	(label "POWER GROUND"
-		(at 171.45 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f2c7710-c8aa-4746-a3a5-107a8da80f53")
-	)
-	(wire
-		(pts
-			(xy 149.86 36.83) (xy 191.77 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d5436b-a3c0-44a5-85d8-32a7e1eb055a")
-	)
-	(label "@@TOM"
-		(at 152.40 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a38cb74-8db9-4e0b-a233-ae768a3ee154")
-	)
-	(label "RS-232 TX 1"
-		(at 171.45 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d66af83-8bca-4fdc-bf46-964db0e5f5b8")
-	)
-	(wire
-		(pts
-			(xy 48.26 55.88) (xy 90.17 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a236d15-f29e-4c65-86a4-ce3f7f26a371")
-	)
-	(label "D002A"
-		(at 50.80 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b15382da-69e7-4f76-b5a7-3e6a0c86526f")
-	)
-	(label "CAN BUS HI"
-		(at 69.85 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc20970a-0d37-46f1-80f6-629c8609bf92")
-	)
-	(wire
-		(pts
-			(xy 48.26 53.34) (xy 90.17 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b672baf-0d50-42f8-98fc-199be8030421")
-	)
-	(label "@@TOM"
-		(at 50.80 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dd8e816-cba8-4152-a789-478f77466d3e")
-	)
-	(label "SIGNAL GROUND"
-		(at 69.85 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50182dea-109e-4607-b558-899079311ea2")
-	)
-	(wire
-		(pts
-			(xy 48.26 50.80) (xy 90.17 50.80)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5311ea0d-9d65-4870-b989-ef40ffc03f74")
-	)
-	(label "D001A"
-		(at 50.80 50.80 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "402c1a3d-3f35-4eff-916d-4d15172c7e46")
-	)
-	(label "CAN BUS LO"
-		(at 69.85 50.80 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f956c89a-74c2-4db9-9336-2292e5200169")
-	)
-	(wire
-		(pts
-			(xy 48.26 48.26) (xy 90.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf188a91-51ee-4d10-acad-add3b27d0f0a")
-	)
-	(label "@@TOM"
-		(at 50.80 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0087d049-317b-4921-a570-0b7a07698e88")
-	)
-	(label "AIRCRAFT POWER 1"
-		(at 69.85 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ad933768-c67e-448e-89fb-536a99e6a1d8")
-	)
-	(wire
-		(pts
-			(xy 48.26 45.72) (xy 90.17 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a24e047-601c-40db-ba62-dd041fe43546")
-	)
-	(label "@@TOM"
-		(at 50.80 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "364a4645-18af-4747-88cd-af53bcc5915c")
-	)
-	(label "UNIT ID"
-		(at 69.85 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb46070f-dc27-47b8-848e-5b77e0bd72ae")
-	)
-	(wire
-		(pts
-			(xy 48.26 43.18) (xy 90.17 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dfd4cd9-7543-455c-aa35-002c39b72590")
-	)
-	(label "@@TOM"
-		(at 50.80 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a5f5c8a-23a6-4427-8437-b059a1c10302")
-	)
-	(label "AIRCRAFT POWER 2"
-		(at 69.85 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "525654aa-439d-4006-ab37-f49b48a98d09")
-	)
-	(no_connect
-		(at 48.26 40.64)
-		(uuid "08d385c7-0524-42aa-9cbc-40e2c21c9e0e")
-	)
-	(wire
-		(pts
-			(xy 48.26 38.10) (xy 90.17 38.10)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4adcd9-75ef-49cf-9940-7b1caaa2d004")
-	)
-	(label "@@TOM"
-		(at 50.80 38.10 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac0c467f-4496-4844-b4ce-4428fcbaa796")
-	)
-	(label "POWER GROUND"
-		(at 69.85 38.10 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1fefb452-f711-4cb0-b7a9-d1ad00a52b73")
-	)
-	(no_connect
-		(at 48.26 35.56)
-		(uuid "fb30d0e6-20df-404a-b6e7-6ef0574d0df1")
 	)
 )
