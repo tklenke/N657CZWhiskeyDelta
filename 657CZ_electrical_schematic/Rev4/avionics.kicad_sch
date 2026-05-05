@@ -4444,6 +4444,15 @@
 				(hide yes)
 			)
 		)
+		(property "LocLoad" "(39.6,4.8,-1)R60"
+			(at 102.87 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "Val_A"
 			(uuid "e1f6b1af-ef25-4e28-be51-bbe8f5055413")
 		)
